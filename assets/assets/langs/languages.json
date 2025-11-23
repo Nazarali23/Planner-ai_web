@@ -1,0 +1,1027 @@
+{
+    "appTitle": {
+        "en": "Planner AI",
+        "tr": "Planner AI",
+        "ru": "Planner AI"
+    },
+    "navHome": {
+        "en": "Home",
+        "tr": "Ana Ekran",
+        "ru": "Главная"
+    },
+    "navChat": {
+        "en": "Create with AI",
+        "tr": "AI ile oluştur",
+        "ru": "Создать с помощью ИИ"
+    },
+    "navMyReminders": {
+        "en": "Calendar",
+        "tr": "Takvim",
+        "ru": "Календарь"
+    },
+    "navHistory": {
+        "en": "Chat History",
+        "tr": "Geçmiş Sohbetler",
+        "ru": "История чатов"
+    },
+    "navClearAllChats": {
+        "en": "Delete All Chats",
+        "tr": "Tüm Sohbetleri Sil",
+        "ru": "Удалить все чаты"
+    },
+    "navClearCurrentChat": {
+        "en": "Clear This Chat",
+        "tr": "Bu Sohbeti Temizle",
+        "ru": "Очистить этот чат"
+    },
+    "navNewChat": {
+        "en": "Start New Chat",
+        "tr": "Yeni Sohbet Başlat",
+        "ru": "Начать новый чат"
+    },
+    "chatInputHint": {
+        "en": "Write the plan you want to create...",
+        "tr": "Oluşturmak istediğiniz planı yazın...",
+        "ru": "Напишите план, который вы хотите создать..."
+    },
+    "chatErrorInit": {
+        "en": "An issue occurred",
+        "tr": "bir sorun oluştu",
+        "ru": "произошла проблема"
+    },
+    "chatFullMessage": {
+        "en": "Chat is full, start a new chat.",
+        "tr": "Sohbet doldu, yeni bir sohbet başlatın.",
+        "ru": "Чат заполнен, начните новый чат."
+    },
+    "chatEmptyMessageWarning": {
+        "en": "⚠️ When the assistant sends an empty message, please refresh the chat!",
+        "tr": "⚠️ Asistan boş mesaj gönderdiğinde, lütfen sohbeti yenileyin!",
+        "ru": "⚠️ Когда помощник отправляет пустое сообщение, пожалуйста, обновите чат!"
+    },
+    "chatAITyping": {
+        "en": "Processing...",
+        "tr": "İşleniyor...",
+        "ru": "Обработка..."
+    },
+    "chatNoHistory": {
+        "en": "No chat history",
+        "tr": "Hiç sohbet yok",
+        "ru": "Нет истории чатов"
+    },
+    "chatEmptyHistory": {
+        "en": "Empty Chat",
+        "tr": "Boş Sohbet",
+        "ru": "Пустой чат"
+    },
+    "chatDeleteAllConfirmTitle": {
+        "en": "Delete all chats",
+        "tr": "Tüm sohbetleri sil",
+        "ru": "Удалить все чаты"
+    },
+    "chatDeleteAllConfirmContent": {
+        "en": "Are you sure you want to permanently delete all chats?",
+        "tr": "Tüm sohbetler kalıcı olarak silinsin mi?",
+        "ru": "Вы уверены, что хотите навсегда удалить все чаты?"
+    },
+    "chatDeleteAllSuccess": {
+        "en": "All chats deleted.",
+        "tr": "Tüm sohbetler silindi.",
+        "ru": "Все чаты удалены."
+    },
+    "chatClearConfirmTitle": {
+        "en": "Clear Chat",
+        "tr": "Sohbeti Temizle",
+        "ru": "Очистить чат"
+    },
+    "chatClearConfirmContent": {
+        "en": "Are you sure you want to delete all messages in this chat?",
+        "tr": "Bu sohbetteki tüm mesajlar silinsin mi?",
+        "ru": "Вы уверены, что хотите удалить все сообщения в этом чате?"
+    },
+    "chatClearSuccess": {
+        "en": "Chat cleared.",
+        "tr": "Sohbet temizlendi.",
+        "ru": "Чат очищен."
+    },
+    "chatAISuggestionOneTask": {
+        "en": "AI suggested a task",
+        "tr": "AI bir görev önerdi",
+        "ru": "ИИ предложил задачу"
+    },
+    "chatAISuggestionOneReminder": {
+        "en": "AI suggested a reminder",
+        "tr": "AI bir hatırlatıcı önerdi",
+        "ru": "ИИ предложил напоминание"
+    },
+    "chatAISuggestionMultiple": {
+        "en": "AI provided multiple suggestions",
+        "tr": "AI birden fazla öneri sundu",
+        "ru": "ИИ предложил несколько вариантов"
+    },
+    "chatAddAll": {
+        "en": "Add All",
+        "tr": "Tümünü Ekle",
+        "ru": "Добавить все"
+    },
+    "chatCancelAll": {
+        "en": "Cancel All",
+        "tr": "Tümünü İptal",
+        "ru": "Отменить все"
+    },
+    "chatAddingMessage": {
+        "en": "Adding, please wait...",
+        "tr": "Ekleniyor, lütfen bekleyin...",
+        "ru": "Добавление, пожалуйста, подождите..."
+    },
+    "chatDateMissingError": {
+        "en": "Date field is missing, incorrect, or too soon. Please enter a date at least 5 minutes from now.",
+        "tr": "Tarih alanı eksik, hatalı veya çok yakın. Lütfen en az 5 dakika sonrası için tarih girin.",
+        "ru": "Поле даты отсутствует, некорректно или слишком скоро. Пожалуйста, введите дату как минимум через 5 минут."
+    },
+    "chatAllAddedSuccess": {
+        "en": "All suggestions added!",
+        "tr": "Tüm öneriler eklendi!",
+        "ru": "Все предложения добавлены!"
+    },
+    "chatErrorAdding": {
+        "en": "Error: ",
+        "tr": "Hata: ",
+        "ru": "Ошибка: "
+    },
+    "chatAddedSuffix": {
+        "en": "\n✅ All items added successfully!",
+        "tr": "\n✅ Tüm öğeler başarıyla eklendi!",
+        "ru": "\n✅ Все элементы успешно добавлены!"
+    },
+    "chatCancelSuffix": {
+        "en": "\n❌ All items cancelled!",
+        "tr": "\n❌ Tüm öğeler iptal edildi!",
+        "ru": "\n❌ Все öğeler iptal edildi!"
+    },
+    "loginWelcome": {
+        "en": "Welcome!",
+        "tr": "Hoş Geldiniz!",
+        "ru": "Добро пожаловать!"
+    },
+    "loginEmailHint": {
+        "en": "Enter your email address",
+        "tr": "E-posta adresinizi girin",
+        "ru": "Введите ваш адрес электронной почты"
+    },
+    "loginPasswordHint": {
+        "en": "Enter your password",
+        "tr": "Şifrenizi girin",
+        "ru": "Введите ваш пароль"
+    },
+    "loginForgotPassword": {
+        "en": "Forgot your password?",
+        "tr": "Şifrenizi mi unuttunuz?",
+        "ru": "Забыли пароль?"
+    },
+    "loginButton": {
+        "en": "Log In",
+        "tr": "Giriş Yap",
+        "ru": "Войти"
+    },
+    "loginNoAccount": {
+        "en": "Don't have an account?",
+        "tr": "Hesabınız yok mu?",
+        "ru": "У вас нет аккаунта?"
+    },
+    "loginSignUpButton": {
+        "en": "Sign Up",
+        "tr": "Kayıt Olun",
+        "ru": "Зарегистрироваться"
+    },
+    "loginSuccess": {
+        "en": "Login successful! Welcome",
+        "tr": "Giriş başarılı! Hoş geldiniz",
+        "ru": "Вход выполнен успешно! Добро пожаловать"
+    },
+    "loginFailed": {
+        "en": "Login failed, please check your email address and password!",
+        "tr": "Giriş başarısız, lütfen mail adresinizi ve şifrenizi kontrol edin!",
+        "ru": "Вход не выполнен, пожалуйста, проверьте свой адрес электронной почты и пароль!"
+    },
+    "loginEmailRequired": {
+        "en": "Please enter your email address",
+        "tr": "Lütfen e-posta adresinizi girin",
+        "ru": "Пожалуйста, введите ваш адрес электронной почты"
+    },
+    "loginPasswordRequired": {
+        "en": "Please enter your password",
+        "tr": "Lütfen şifrenizi girin",
+        "ru": "Пожалуйста, введите ваш пароль"
+    },
+    "loginPasswordLengthError": {
+        "en": "Password must be at least 6 characters long",
+        "tr": "Şifre en az 6 karakter olmalıdır",
+        "ru": "Пароль должен быть не менее 6 символов"
+    },
+    "signupCreateAccount": {
+        "en": "Create New Account!",
+        "tr": "Yeni hesap oluştur!",
+        "ru": "Создать новый аккаунт!"
+    },
+    "signupFirstNameHint": {
+        "en": "First Name",
+        "tr": "Ad",
+        "ru": "Имя"
+    },
+    "signupLastNameHint": {
+        "en": "Last Name",
+        "tr": "Soyad",
+        "ru": "Фамилия"
+    },
+    "signupEmailHint": {
+        "en": "Email",
+        "tr": "E-posta",
+        "ru": "Эл. почта"
+    },
+    "signupPasswordHint": {
+        "en": "Password",
+        "tr": "Şifre",
+        "ru": "Пароль"
+    },
+    "signupTerms": {
+        "en": "I accept the terms of use.",
+        "tr": "Kullanım koşullarını kabul ediyorum.",
+        "ru": "Я принимаю условия использования."
+    },
+    "signupButton": {
+        "en": "Sign Up",
+        "tr": "Kayıt Olun",
+        "ru": "Зарегистрироваться"
+    },
+    "signupHaveAccount": {
+        "en": "Already have an account?",
+        "tr": "Zaten hesabınız var mı?",
+        "ru": "У вас уже есть аккаунт?"
+    },
+    "signupLoginButton": {
+        "en": "Log In",
+        "tr": "Giriş Yapın",
+        "ru": "Войти"
+    },
+    "signupFirstNameRequired": {
+        "en": "Please enter your first name!",
+        "tr": "Lütfen isminizi giriniz!",
+        "ru": "Пожалуйста, введите ваше имя!"
+    },
+    "signupLastNameRequired": {
+        "en": "Please enter your last name!",
+        "tr": "Lütfen soyisminizi giriniz!",
+        "ru": "Пожалуйста, введите вашу фамилиizi!"
+    },
+    "signupEmailRequired": {
+        "en": "Please enter your email address",
+        "tr": "Lütfen e-posta adresinizi girin",
+        "ru": "Пожалуйста, введите ваш адрес электронной почты"
+    },
+    "signupPasswordRequired": {
+        "en": "Please enter your password",
+        "tr": "Lütfen şifrenizi girin",
+        "ru": "Пожалуйста, введите ваш пароль"
+    },
+    "signupPasswordLengthError": {
+        "en": "Password must be at least 6 characters long",
+        "tr": "Şifre en az 6 karakter olmalıdır",
+        "ru": "Пароль должен быть не менее 6 символов"
+    },
+    "signupTermsRequired": {
+        "en": "Please accept the terms of use.",
+        "tr": "Lütfen kullanım koşullarını kabul edin.",
+        "ru": "Пожалуйста, примите условия использования."
+    },
+    "signupSuccess": {
+        "en": "Account created successfully.",
+        "tr": "Hesap başarıyla oluşturuldu.",
+        "ru": "Аккаунт успешно создан."
+    },
+    "signupFailed": {
+        "en": "Signup failed. ",
+        "tr": "Kayıt işlemi başarısız oldu. ",
+        "ru": "Регистрация не выполнена. "
+    },
+    "passwordResetTitle": {
+        "en": "Welcome!",
+        "tr": "Hoş Geldiniz!",
+        "ru": "Добро пожаловать!"
+    },
+    "passwordResetEmailHint": {
+        "en": "Enter your email address",
+        "tr": "E-posta adresinizi girin",
+        "ru": "Введите ваш адрес электронной почты"
+    },
+    "passwordResetButton": {
+        "en": "Send password reset email",
+        "tr": "Şifre sıfırlama maili gönder",
+        "ru": "Отправить письмо для сброса пароля"
+    },
+    "passwordResetLoginButton": {
+        "en": "Log in",
+        "tr": "Giriş yap",
+        "ru": "Войти"
+    },
+    "passwordResetSuccess": {
+        "en": "Password reset email sent.",
+        "tr": "Şifre sıfırlama e-postası gönderildi.",
+        "ru": "Письмо для сброса пароля отправлено."
+    },
+    "passwordResetUserNotFound": {
+        "en": "No user found with this email.",
+        "tr": "Bu e-posta ile kayıtlı bir kullanıcı bulunamadı.",
+        "ru": "Пользователь с таким адресом электронной почты не найден."
+    },
+    "passwordResetError": {
+        "en": "An error occurred: ",
+        "tr": "Hata oluştu: ",
+        "ru": "Произошла ошибка: "
+    },
+    "passwordResetUnexpectedError": {
+        "en": "An unexpected error occurred: ",
+        "tr": "Beklenmeyen bir hata oluştu: ",
+        "ru": "Произошла непредвиденная ошибка: "
+    },
+    "editReminderTitle": {
+        "en": "Edit Reminder",
+        "tr": "Hatırlatıcıyı Düzenle",
+        "ru": "Редактировать напоминание"
+    },
+    "editReminderDeleteButton": {
+        "en": "Delete",
+        "tr": "Sil",
+        "ru": "Удалить"
+    },
+    "editReminderDate": {
+        "en": "Date",
+        "tr": "Tarih",
+        "ru": "Дата"
+    },
+    "editReminderTime": {
+        "en": "Time",
+        "tr": "Saat",
+        "ru": "Время"
+    },
+    "editReminderTitleLabel": {
+        "en": "Title",
+        "tr": "Başlık",
+        "ru": "Заголовок"
+    },
+    "editReminderNoteLabel": {
+        "en": "Note",
+        "tr": "Not",
+        "ru": "Примечание"
+    },
+    "editReminderColorLabel": {
+        "en": "Color",
+        "tr": "Renk",
+        "ru": "Цвет"
+    },
+    "editReminderRepeat": {
+        "en": "Repeat",
+        "tr": "Tekrar",
+        "ru": "Повтор"
+    },
+    "editReminderSaveButton": {
+        "en": "Save",
+        "tr": "Kaydet",
+        "ru": "Сохранить"
+    },
+    "editReminderRepeatType": {
+        "en": "Repeat Type",
+        "tr": "Tekrar Tipi",
+        "ru": "Тип повтора"
+    },
+    "editReminderRepeatOneTime": {
+        "en": "One Time",
+        "tr": "Bir Kerelik",
+        "ru": "Один раз"
+    },
+    "editReminderRepeatWeekly": {
+        "en": "Weekly",
+        "tr": "Haftalık",
+        "ru": "Еженедельно"
+    },
+    "editReminderWeeklySettings": {
+        "en": "Weekly Settings",
+        "tr": "Haftalık Ayarlar",
+        "ru": "Настройки еженедельника"
+    },
+    "editReminderWeeklyDays": {
+        "en": "Days",
+        "tr": "Günler",
+        "ru": "Дни"
+    },
+    "editReminderWeeklyDateRange": {
+        "en": "Date Range",
+        "tr": "Tarih Aralığı",
+        "ru": "Диапазон дат"
+    },
+    "editReminderWeeklyStartDate": {
+        "en": "Start Date",
+        "tr": "Başlangıç Tarihi",
+        "ru": "Дата начала"
+    },
+    "editReminderWeeklyEndDate": {
+        "en": "End Date",
+        "tr": "Bitiş Tarihi",
+        "ru": "Дата окончания"
+    },
+    "editReminderWeeklyCancelButton": {
+        "en": "Cancel",
+        "tr": "İptal",
+        "ru": "Отмена"
+    },
+    "editReminderWeeklyOKButton": {
+        "en": "OK",
+        "tr": "Tamam",
+        "ru": "ОК"
+    },
+    "editReminderWeeklySelectDayError": {
+        "en": "Please select at least one day",
+        "tr": "Lütfen en az bir gün seçin",
+        "ru": "Пожалуйста, выберите хотя бы один день"
+    },
+    "editReminderWeeklySelectDateRangeError": {
+        "en": "Please select the date range",
+        "tr": "Lütfen tarih aralığını seçin",
+        "ru": "Пожалуйста, выберите диапазон дат"
+    },
+    "editReminderSuccess": {
+        "en": "Reminder updated",
+        "tr": "Hatırlatıcı güncellendi",
+        "ru": "Напоминание обновлено"
+    },
+    "editReminderError": {
+        "en": "An error occurred: ",
+        "tr": "Bir hata oluştu: ",
+        "ru": "Произошла ошибка: "
+    },
+    "editReminderNoUser": {
+        "en": "User not logged in",
+        "tr": "Kullanıcı girişi yapılmamış",
+        "ru": "Пользователь не вошел"
+    },
+    "editTaskTitle": {
+        "en": "Edit Task",
+        "tr": "Görevi Düzenle",
+        "ru": "Редактировать задачу"
+    },
+    "editTaskDeleteButton": {
+        "en": "Delete",
+        "tr": "Sil",
+        "ru": "Удалить"
+    },
+    "editTaskDate": {
+        "en": "Date",
+        "tr": "Tarih",
+        "ru": "Дата"
+    },
+    "editTaskTime": {
+        "en": "Time",
+        "tr": "Saat",
+        "ru": "Время"
+    },
+    "editTaskTitleLabel": {
+        "en": "Title",
+        "tr": "Başlık",
+        "ru": "Заголовок"
+    },
+    "editTaskNoteLabel": {
+        "en": "Note",
+        "tr": "Not",
+        "ru": "Примечание"
+    },
+    "editTaskColorLabel": {
+        "en": "Color",
+        "tr": "Renk",
+        "ru": "Цвет"
+    },
+    "editTaskRepeat": {
+        "en": "Repeat",
+        "tr": "Tekrar",
+        "ru": "Повтор"
+    },
+    "editTaskCompleted": {
+        "en": "Completed?",
+        "tr": "Tamamlandı mı?",
+        "ru": "Завершено?"
+    },
+    "editTaskYes": {
+        "en": "Yes",
+        "tr": "Evet",
+        "ru": "Да"
+    },
+    "editTaskNo": {
+        "en": "No",
+        "tr": "Hayır",
+        "ru": "Нет"
+    },
+    "editTaskSaveButton": {
+        "en": "Save",
+        "tr": "Kaydet",
+        "ru": "Сохранить"
+    },
+    "editTaskSuccess": {
+        "en": "Task updated",
+        "tr": "Görev güncellendi",
+        "ru": "Задача обновлена"
+    },
+    "editTaskError": {
+        "en": "An error occurred: ",
+        "tr": "Bir hata oluştu: ",
+        "ru": "Произошла ошибка: "
+    },
+    "editTaskNoUser": {
+        "en": "User not logged in",
+        "tr": "Kullanıcı girişi yapılmamış",
+        "ru": "Пользователь не вошел"
+    },
+    "homeNoUserSession": {
+        "en": "No user session",
+        "tr": "Kullanıcı oturumu yok",
+        "ru": "Нет сессии пользователя"
+    },
+    "homeNotificationsError": {
+        "en": "Notifications could not be started. Please check application permissions.",
+        "tr": "Bildirimler başlatılamadı. Lütfen uygulama izinlerini kontrol edin.",
+        "ru": "Не удалось запустить уведомления. Пожалуйста, проверьте разрешения приложения."
+    },
+    "homeDrawerProfile": {
+        "en": "Edit Profile",
+        "tr": "Profili Düzenle",
+        "ru": "Редактировать профиль"
+    },
+    "homeDrawerSettings": {
+        "en": "Settings",
+        "tr": "Ayarlar",
+        "ru": "Настройки"
+    },
+    "homeDrawerTestNotifications": {
+        "en": "Test Notifications",
+        "tr": "Bildirimleri Test Et",
+        "ru": "Проверить уведомления"
+    },
+    "homeTestNotificationSent": {
+        "en": "Test notification sent",
+        "tr": "Test bildirimi gönderildi",
+        "ru": "Отправлено тестовое уведомление"
+    },
+    "homeTestNotificationFailed": {
+        "en": "Notification could not be sent",
+        "tr": "Bildirim gönderilemedi",
+        "ru": "Не удалось отправить уведомление"
+    },
+    "homeClearExpiredCompletedTooltip": {
+        "en": "Clear expired and completed items",
+        "tr": "Süresi geçen ve tamamlananları temizle",
+        "ru": "Очистить просроченные и завершенные элементы"
+    },
+    "homeClickForItems": {
+        "en": "Click for all tasks and reminders",
+        "tr": "Tüm görev ve hatırlatıcılar için tıklayın",
+        "ru": "Нажмите для просмотра всех задач и напоминаний"
+    },
+    "homeFilterAll": {
+        "en": "All",
+        "tr": "Tümü",
+        "ru": "Все"
+    },
+    "homeFilterTasks": {
+        "en": "Tasks",
+        "tr": "Görevler",
+        "ru": "Задачи"
+    },
+    "homeFilterReminders": {
+        "en": "Reminders",
+        "tr": "Hatırlatıcılar",
+        "ru": "Напоминания"
+    },
+    "homeDesignedBy": {
+        "en": "Designed by Nazarali",
+        "tr": "Nazarali tarafından tasarlandı",
+        "ru": "Разработано Назарали"
+    },
+    "homeUpcomingItemsTitle": {
+        "en": "Upcoming reminders and tasks",
+        "tr": "Yaklaşan hatırlatıcılar ve görevler",
+        "ru": "Предстоящие напоминания и задачи"
+    },
+    "homeErrorLoadingItems": {
+        "en": "An error occurred!",
+        "tr": "Bir hata oluştu!",
+        "ru": "Произошла ошибка!"
+    },
+    "homeNoUpcomingItems": {
+        "en": "No reminders or tasks for the upcoming days",
+        "tr": "Önümüzdeki günler için hatırlatıcı veya görev yok",
+        "ru": "Нет напоминаний или задач на ближайшие дни"
+    },
+    "homeReminderDetailsTooltip": {
+        "en": "Click the calendar icon to edit the reminder",
+        "tr": "Hatırlatıcıyı düzenlemek için takvim simgesine tıklayın",
+        "ru": "Нажмите на значок календаря, чтобы отредактировать напоминание"
+    },
+    "homeTaskDetailsTooltip": {
+        "en": "Click to edit task",
+        "tr": "Görevi düzenlemek için tıklayın",
+        "ru": "Нажмите для редактирования задачи"
+    },
+    "homeItemNotePlaceholder": {
+        "en": "No note found",
+        "tr": "Not bulunmuyor",
+        "ru": "Примечание не найдено"
+    },
+    "homeFABAddTitle": {
+        "en": "Add New",
+        "tr": "Yeni Ekle",
+        "ru": "Добавить новое"
+    },
+    "homeFABAddContent": {
+        "en": "What do you want to add?",
+        "tr": "Ne eklemek istiyorsunuz?",
+        "ru": "Что вы хотите добавить?"
+    },
+    "homeFABAddReminderButton": {
+        "en": "Add Reminder",
+        "tr": "Hatırlatıcı Ekle",
+        "ru": "Добавить напоминание"
+    },
+    "homeFABAddTaskButton": {
+        "en": "Add Task",
+        "tr": "Görev Ekle",
+        "ru": "Добавить задачу"
+    },
+    "homeFABCancelButton": {
+        "en": "Cancel",
+        "tr": "İptal",
+        "ru": "Отмена"
+    },
+    "editProfileTitle": {
+        "en": "Edit Profile",
+        "tr": "Profili Düzenle",
+        "ru": "Редактировать профиль"
+    },
+    "editProfileInfoTitle": {
+        "en": "Profile Information",
+        "tr": "Profil Bilgileri",
+        "ru": "Информация профиля"
+    },
+    "editProfileFirstNameLabel": {
+        "en": "First Name",
+        "tr": "Ad",
+        "ru": "Имя"
+    },
+    "editProfileLastNameLabel": {
+        "en": "Last Name",
+        "tr": "Soyad",
+        "ru": "Фамилия"
+    },
+    "editProfileEmailLabel": {
+        "en": "Email",
+        "tr": "Email",
+        "ru": "Эл. почта"
+    },
+    "editProfileNewPasswordLabel": {
+        "en": "New Password (Optional)",
+        "tr": "Yeni Şifre (Opsiyonel)",
+        "ru": "Новый пароль (необязательно)"
+    },
+    "editProfileUpdateButton": {
+        "en": "Update",
+        "tr": "Güncelle",
+        "ru": "Обновить"
+    },
+    "editProfileCurrentPasswordLabel": {
+        "en": "Current Password",
+        "tr": "Mevcut Şifre",
+        "ru": "Текущий пароль"
+    },
+    "editProfileForgotPasswordButton": {
+        "en": "Forgot Password",
+        "tr": "Şifremi Unuttum",
+        "ru": "Забыли пароль"
+    },
+    "editProfileVerifyPasswordButton": {
+        "en": "Verify Password",
+        "tr": "Şifreyi Doğrula",
+        "ru": "Проверить пароль"
+    },
+    "editProfileFirstNameRequired": {
+        "en": "Please enter your first name",
+        "tr": "Lütfen adınızı girin",
+        "ru": "Пожалуйста, введите ваше имя"
+    },
+    "editProfileLastNameRequired": {
+        "en": "Please enter your last name",
+        "tr": "Lütfen soyadınızı girin",
+        "ru": "Пожалуйста, введите вашу фамилию"
+    },
+    "editProfileEmailRequired": {
+        "en": "Please enter your email address",
+        "tr": "Lütfen email adresinizi girin",
+        "ru": "Пожалуйста, введите ваш адрес электронной почты"
+    },
+    "editProfileValidEmailRequired": {
+        "en": "Please enter a valid email address",
+        "tr": "Geçerli bir email adresi girin",
+        "ru": "Пожалуйста, введите действительный адрес электронной почты"
+    },
+    "editProfileCurrentPasswordRequired": {
+        "en": "Please enter your password",
+        "tr": "Lütfen şifrenizi girin",
+        "ru": "Пожалуйста, введите ваш пароль"
+    },
+    "editProfileEmailUpdateSent": {
+        "en": "Email update link sent",
+        "tr": "Email güncelleme bağlantısı gönderildi",
+        "ru": "Ссылка для обновления электронной почты отправлена"
+    },
+    "editProfilePasswordResetSent": {
+        "en": "Password reset link sent",
+        "tr": "Şifre sıfırlama bağlantısı gönderildi",
+        "ru": "Ссылка для сброса пароля отправлена"
+    },
+    "editProfilePasswordResetEmailSent": {
+        "en": "Password reset link sent to your email address",
+        "tr": "Şifre sıfırlama bağlantısı e-posta adresinize gönderildi",
+        "ru": "Ссылка для сброса пароля отправлена на ваш адрес электронной почты"
+    },
+    "editProfilePasswordResetEmailFailed": {
+        "en": "Password reset email could not be sent",
+        "tr": "Şifre sıfırlama e-postası gönderilemedi",
+        "ru": "Не удалось отправить письмо для сброса пароля"
+    },
+    "editProfileAccountOperations": {
+        "en": "Account Operations",
+        "tr": "Hesap işlemleri",
+        "ru": "Операции с аккаунтом"
+    },
+    "editProfileLogoutButton": {
+        "en": "Log Out",
+        "tr": "Çıkış Yap",
+        "ru": "Выйти"
+    },
+    "editProfileDeleteAccountButton": {
+        "en": "Delete Account",
+        "tr": "Hesabı Sil",
+        "ru": "Удалить аккаунт"
+    },
+    "editProfileDeleteAccountConfirmTitle": {
+        "en": "Delete Account",
+        "tr": "Hesabı Sil",
+        "ru": "Удалить аккаунт"
+    },
+    "editProfileDeleteAccountConfirmContent": {
+        "en": "Enter your password to delete your account:",
+        "tr": "Hesabınızı silmek için şifrenizi girin:",
+        "ru": "Введите ваш пароль для удаления аккаунта:"
+    },
+    "editProfileDeleteAccountFailed": {
+        "en": "Account could not be deleted: ",
+        "tr": "Hesap silinemedi: ",
+        "ru": "Не удалось удалить аккаунт: "
+    },
+    "myRemindersErrorLoading": {
+        "en": "An error occurred!",
+        "tr": "Bir hata oluştu!",
+        "ru": "Произошла ошибка!"
+    },
+    "myRemindersLoading": {
+        "en": "Loading...",
+        "tr": "Yükleniyor...",
+        "ru": "Загрузка..."
+    },
+    "myRemindersNoItems": {
+        "en": "No items for the selected date",
+        "tr": "Seçilen tarih için öğe yok",
+        "ru": "Нет элементов на выбранную дату"
+    },
+    "myRemindersTaskDeleteTooltip": {
+        "en": "Delete task",
+        "tr": "Görevi sil",
+        "ru": "Удалить задачу"
+    },
+    "myRemindersReminderDeleteTooltip": {
+        "en": "Delete reminder",
+        "tr": "Hatırlatıcıyı sil",
+        "ru": "Удалить напоминание"
+    },
+    "reminderNotificationSettingsTitle": {
+        "en": "Reminder Notification Settings",
+        "tr": "Hatırlatıcı Bildirim Ayarları",
+        "ru": "Настройки уведомлений напоминаний"
+    },
+    "reminderNotificationEnableTitle": {
+        "en": "Enable Reminder Notifications",
+        "tr": "Hatırlatıcı Bildirimlerini Etkinleştir",
+        "ru": "Включить уведомления напоминаний"
+    },
+    "reminderNotificationEnableSubtitle": {
+        "en": "Receive notifications for reminders before the selected time",
+        "tr": "Hatırlatıcıları seçilen süre öncesinden bildirim al",
+        "ru": "Получать уведомления о напоминаниях до выбранного времени"
+    },
+    "reminderNotificationTimeTitle": {
+        "en": "Notification Time",
+        "tr": "Bildirim Süresi",
+        "ru": "Время уведомления"
+    },
+    "reminderNotificationMinuteOption": {
+        "en": " minutes before",
+        "tr": " dakika önce",
+        "ru": " минут до"
+    },
+    "reminderNotificationEffectNote": {
+        "en": "This setting will affect the notification time for all your active reminders.",
+        "tr": "Bu ayar, tüm aktif hatırlatıcılarınızın bildirim zamanını etkileyecektir.",
+        "ru": "Этот параметр повлияет на время уведомления для всех ваших активных напоминаний."
+    },
+    "reminderNotificationSettingsUpdated": {
+        "en": "Settings updated",
+        "tr": "Ayarlar güncellendi",
+        "ru": "Настройки обновлены"
+    },
+    "reminderNotificationSettingsError": {
+        "en": "An error occurred",
+        "tr": "Bir hata oluştu",
+        "ru": "Произошла ошибка"
+    },
+    "settingsTitle": {
+        "en": "Settings",
+        "tr": "Ayarlar",
+        "ru": "Настройки"
+    },
+    "settingsThemeTitle": {
+        "en": "Theme",
+        "tr": "Tema",
+        "ru": "Тема"
+    },
+    "settingsThemeSystem": {
+        "en": "Follow System",
+        "tr": "Sistemi Takip Et",
+        "ru": "Следовать системе"
+    },
+    "settingsThemeLight": {
+        "en": "Light Mode",
+        "tr": "Açık Mod",
+        "ru": "Светлый режим"
+    },
+    "settingsThemeDark": {
+        "en": "Dark Mode",
+        "tr": "Karanlık Mod",
+        "ru": "Темный режим"
+    },
+    "settingsReminderNotificationSettingsTitle": {
+        "en": "Reminder Notification Settings",
+        "tr": "Hatırlatıcı Bildirim Ayarları",
+        "ru": "Настройки уведомлений напоминаний"
+    },
+    "settingsReminderNotificationEnableTitle": {
+        "en": "Enable Reminder Notifications",
+        "tr": "Hatırlatıcı Bildirimlerini Etkinleştir",
+        "ru": "Включить уведомления напоминаний"
+    },
+    "settingsReminderNotificationEnableSubtitle": {
+        "en": "Receive notifications for reminders before the selected time",
+        "tr": "Hatırlatıcıları seçilen süre öncesinden bildirim al",
+        "ru": "Получать уведомления о напоминаниях до выбранного времени"
+    },
+    "settingsReminderNotificationTimeTitle": {
+        "en": "Notification Time",
+        "tr": "Bildirim Süresi",
+        "ru": "Время уведомления"
+    },
+    "settingsReminderNotificationMinuteOption": {
+        "en": " minutes before",
+        "tr": " dakika önce",
+        "ru": " минут до"
+    },
+    "settingsReminderNotificationEffectNote": {
+        "en": "This setting will affect the notification time for all your active reminders.",
+        "tr": "Bu ayar, tüm aktif hatırlatıcılarınızın bildirim zamanını etkileyecektir.",
+        "ru": "Этот параметр повлияет на время уведомления для всех ваших активных напоминаний."
+    },
+    "settingsReminderNotificationSettingsUpdated": {
+        "en": "Reminder settings updated",
+        "tr": "Hatırlatıcı ayarları güncellendi",
+        "ru": "Настройки напоминаний обновлены"
+    },
+    "settingsReminderNotificationSettingsError": {
+        "en": "An error occurred",
+        "tr": "Bir hata oluştu",
+        "ru": "Произошла ошибка"
+    },
+    "settingsTaskNotificationSettingsTitle": {
+        "en": "Task Notification Settings",
+        "tr": "Görev Bildirim Ayarları",
+        "ru": "Настройки уведомлений задач"
+    },
+    "settingsTaskPostponeTimeTitle": {
+        "en": "Notification Postpone Time",
+        "tr": "Bildirim Erteleme Süresi",
+        "ru": "Время отсрочки уведомления"
+    },
+    "settingsTaskPostponeMinuteOption": {
+        "en": " minutes",
+        "tr": " dakika",
+        "ru": " минут"
+    },
+    "settingsTaskPostponeEffectNote": {
+        "en": "This setting determines the duration of the 'Postpone' button in task notifications.",
+        "tr": "Bu ayar, görev bildirimlerindeki \"Ertele\" butonunun süresini belirler.",
+        "ru": "Этот параметр определяет длительность кнопки \"Отложить\" в уведомлениях задач."
+    },
+    "settingsTaskNotificationSettingsUpdated": {
+        "en": "Task settings updated",
+        "tr": "Görev ayarları güncellendi",
+        "ru": "Настройки задач обновлены"
+    },
+    "settingsTaskNotificationSettingsError": {
+        "en": "An error occurred",
+        "tr": "Bir hata oluştu",
+        "ru": "Произошла ошибка"
+    },
+    "splashWelcomeTitle": {
+        "en": "Welcome to Planner.ai!",
+        "tr": "Planner.ai'ye Hoş Geldiniz!",
+        "ru": "Добро пожаловать в Planner.ai!"
+    },
+    "splashGetStartedButton": {
+        "en": "Let's Get Started",
+        "tr": "Başlayalım",
+        "ru": "Начнем"
+    },
+    "splashContinueMessage": {
+        "en": "Continue to start planning.",
+        "tr": "Planlamaya başlamak için devam edin.",
+        "ru": "Продолжайте, чтобы начать планирование."
+    },
+    "itemDetailsReminderTitle": {
+        "en": "📅 Reminder Details",
+        "tr": "📅 Hatırlatıcı Detayları",
+        "ru": "📅 Детали напоминания"
+    },
+    "itemDetailsTaskTitle": {
+        "en": "✓ Task Details",
+        "tr": "✓ Görev Detayları",
+        "ru": "✓ Детали задачи"
+    },
+    "itemDetailsTitleLabel": {
+        "en": "Title:",
+        "tr": "Başlık:",
+        "ru": "Заголовок:"
+    },
+    "itemDetailsNoteLabel": {
+        "en": "Note:",
+        "tr": "Not:",
+        "ru": "Примечание:"
+    },
+    "itemDetailsDateTimeLabel": {
+        "en": "Date and Time:",
+        "tr": "Tarih ve Saat:",
+        "ru": "Дата и время:"
+    },
+    "itemDetailsCloseButton": {
+        "en": "Close",
+        "tr": "Kapat",
+        "ru": "Закрыть"
+    },
+    "dayNameSunday": {
+        "en": "Sunday",
+        "tr": "Pazar",
+        "ru": "Воскресенье"
+    },
+    "dayNameMonday": {
+        "en": "Monday",
+        "tr": "Pazartesi",
+        "ru": "Понедельник"
+    },
+    "dayNameTuesday": {
+        "en": "Tuesday",
+        "tr": "Salı",
+        "ru": "Вторник"
+    },
+    "dayNameWednesday": {
+        "en": "Wednesday",
+        "tr": "Çarşamba",
+        "ru": "Среда"
+    },
+    "dayNameThursday": {
+        "en": "Thursday",
+        "tr": "Perşembe",
+        "ru": "Четверг"
+    },
+    "dayNameFriday": {
+        "en": "Friday",
+        "tr": "Cuma",
+        "ru": "Пятница"
+    },
+    "dayNameSaturday": {
+        "en": "Saturday",
+        "tr": "Cumartesi",
+        "ru": "Суббота"
+    }
+}
