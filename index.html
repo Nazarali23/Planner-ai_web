@@ -2,420 +2,50 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="PawConnect connects loving pets with caring families through safe and easy adoption.">
-    <meta name="keywords" content="pet adoption, animal shelter, adopt a pet, PawConnect">
-    <title>PawConnect - Pet Adoption Platform</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="scripts.js" defer></script>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="/Planner-ai_web/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="planner.ai">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png" />
+
+  <title>planner.ai</title>
+  <link rel="manifest" href="manifest.json">
 </head>
 
 <body>
-    <nav>
-        <img src="images/icons/logo.png" alt="" class="logo">
-        <h3 class="hamburger-menu-text">PawConnect</h3>
-        <ul class="nav-links">
-            <li class="active"><a href="index.html"> <img src="images/icons/home.png" class="icon" alt="">Home</a></li>
-            <li><a href="adopt.html"> <img src="images/icons/adoption.png" class="icon" alt="">Adopt a Pet</a></li>
-            <li><a href="donate.html"><img src="images/icons/pet-care.png" class="icon" alt="">Donate</a></li>
-            <li><a href="shelters.html"><img src="images/icons/help.png" class="icon" alt="">Shelters</a></li>
-            <li><a href="contact.html"><img src="images/icons/customer-service.png" class="icon" alt="">Contact Us</a>
-            </li>
-            <li><a href="login.html"><img src="images/icons/dog-house.png" class="icon" alt="">Login to your shelter</a>
-            </li>
-        </ul>
-        <div class="hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-    </nav>
-    <main>
-        <section class="hero">
-            <div class="hero-back">
-                <img src="images/home/pet-back.png" alt="Happy pets" class="hero-image">
-            </div>
-            <div class="hero-content">
-                <h1>Welcome to PawConnect</h1>
-                <p>Your trusted platform for pet adoption, donations, and volunteering.</p>
-                <a href="adopt.html" class="btn">Adopt a Pet</a>
-            </div>
-            <div class="hero-front">
-                <img src="images/home/pet-front.png" alt="Paw Print" class="paw-print">
-            </div>
-        </section>
+  <script src="flutter_bootstrap.js" async></script>
+  <!-- Firebase App (core) -->
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js"></script>
 
-        <section class="pets-section">
-            <div class="pets-section-title">
-                <img src="images/home/dog-judgy-eye.png" alt="dog">
-                <h2>Still waiting? Check out these cute
-                    friends and be their forever home!</h2>
-            </div>
-            <div class="carousel">
-                <div class="pet-cards">
-                    <div class="pet-card">
-                        <button>
-                            <div>
-                                <img src="images/home/dog-card.jpg" alt="Dogs">
-                            </div>
-                            <p>Looking for a loyal companion?</p>
-                        </button>
-                    </div>
-                    <div class="pet-card">
-                        <button>
-                            <img src="images/home/cat-card.jpg" alt="Cats">
-                            <p>Cats are waiting to purr in your lap!</p>
-                        </button>
-                    </div>
-                    <div class="pet-card">
-                        <button>
-                            <img src="images/home/bird-card.jpg" alt="Birds">
-                            <p>Brighten your home with a chirpy friend!</p>
-                        </button>
-                    </div>
-                    <div class="pet-card">
-                        <button>
-                            <img src="images/home/rabbit-card.jpg" alt="Rabbits">
-                            <p>Hop into happiness with a cuddly rabbit!</p>
-                        </button>
-                    </div>
-                    <div class="pet-card">
-                        <button>
-                            <img src="images/home/fish-card.jpg" alt="Fish">
-                            <p>Discover the tranquility of an aquatic companion!</p>
-                        </button>
-                    </div>
-                    <div class="pet-card">
-                        <button>
-                            <img src="images/home/more-pets-card.jpg" alt="More Pets">
-                            <p>Explore more pets waiting for you!</p>
-                        </button>
-                    </div>
-                    <div class="pet-card">
-                        <button>
-                            <div>
-                                <img src="images/home/dog-card.jpg" alt="Dogs">
-                            </div>
-                            <p>Looking for a loyal companion?</p>
-                        </button>
-                    </div>
-                    <div class="pet-card">
-                        <button>
-                            <img src="images/home/cat-card.jpg" alt="Cats">
-                            <p>Cats are waiting to purr in your lap!</p>
-                        </button>
-                    </div>
-                    <div class="pet-card">
-                        <button>
-                            <img src="images/home/bird-card.jpg" alt="Birds">
-                            <p>Brighten your home with a chirpy friend!</p>
-                        </button>
-                    </div>
-                    <div class="pet-card">
-                        <button>
-                            <img src="images/home/rabbit-card.jpg" alt="Rabbits">
-                            <p>Hop into happiness with a cuddly rabbit!</p>
-                        </button>
-                    </div>
-                    <div class="pet-card">
-                        <button>
-                            <img src="images/home/fish-card.jpg" alt="Fish">
-                            <p>Discover the tranquility of an aquatic companion!</p>
-                        </button>
-                    </div>
-                    <div class="pet-card">
-                        <button>
-                            <img src="images/home/more-pets-card.jpg" alt="More Pets">
-                            <p>Explore more pets waiting for you!</p>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </section>
+  <!-- Firebase Authentication -->
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js"></script>
 
-        <section class="about-section">
-            <div class="about-section-title">
-                <h2>How it works?</h2>
-                <span class="role-change">
-                    <p id="role-change-text">For Users</p>
-                </span>
-            </div>
-
-            <div class="info-for-users">
-                <div class="about-section-steps">
-                    <div class="step foruser-bg">
-                        <img src="images/icons/search.png" alt="">
-                        <h4>1. Explore Pets</h4>
-                        <div class="step-indicator">
-                            <div class="step-dot"></div>
-                            <div class="step-line"></div>
-                        </div>
-                        <p>Browse through a wide variety of pets available for adoption from shelters around you.
-                        </p>
-                    </div>
-                    <div class="step foruser-bg">
-                        <img src="images/icons/form.png" alt="">
-                        <h4>2. Submit Application</h4>
-                        <div class="step-indicator">
-                            <div class="step-dot"></div>
-                            <div class="step-line"></div>
-                        </div>
-                        <p>Fill out a simple adoption application form to express your interest in a pet.
-                        </p>
-                    </div>
-                    <div class="step foruser-bg">
-                        <img src="images/icons/confirm.png" alt="">
-                        <h4>3. Confirmation</h4>
-                        <div class="step-indicator">
-                            <div class="step-dot"></div>
-                            <div class="step-line"></div>
-                        </div>
-                        <p>Once your application is approved, you'll receive a email from the shelter.
-                        </p>
-                    </div>
-                    <div class="step foruser-bg">
-                        <img src="images/icons/visit.png" alt="">
-                        <h4>4. Visit Shelter</h4>
-                        <div class="step-indicator">
-                            <div class="step-dot"></div>
-                        </div>
-                        <p>Schedule a visit to the shelter to meet your potential new furry friend.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="info-for-shelters hidden">
-                <div class="about-section-steps">
-                    <div class="step forsehlter-bg">
-                        <img src="images/icons/register.png" alt="">
-                        <h4>1. Register Shelter</h4>
-                        <div class="step-indicator">
-                            <div class="step-dot"></div>
-                            <div class="step-line"></div>
-                        </div>
-                        <p>Create a shelter profile to start listing pets available for adoption.</p>
-                    </div>
-
-                    <div class="step forsehlter-bg">
-                        <img src="images/icons/add.png" alt="">
-                        <h4>2. Add Pets</h4>
-                        <div class="step-indicator">
-                            <div class="step-dot"></div>
-                            <div class="step-line"></div>
-                        </div>
-                        <p>Upload pet details, photos, and important information to attract adopters.</p>
-                    </div>
-
-                    <div class="step forsehlter-bg">
-                        <img src="images/icons/review.png" alt="">
-                        <h4>3. Review Applications</h4>
-                        <div class="step-indicator">
-                            <div class="step-dot"></div>
-                            <div class="step-line"></div>
-                        </div>
-                        <p>Receive and review adoption applications submitted by interested users.</p>
-                    </div>
-
-                    <div class="step forsehlter-bg">
-                        <img src="images/icons/time.png" alt="">
-                        <h4>4. Arrange Visit</h4>
-                        <div class="step-indicator">
-                            <div class="step-dot"></div>
-                        </div>
-                        <p>Contact approved applicants and schedule a shelter visit to complete adoption.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="info-section">
-            <div class="statistics">
-                <div class="statistics-card">
-                    <img src="images/icons/pet.png" alt="">
-                    <div>
-                        <h2>1000+</h2>
-                        <p>Pets Available</p>
-                    </div>
-                </div>
-                <div class="statistics-card">
-                    <img src="images/icons/rate.png" alt="">
-                    <div>
-                        <h2>98%</h2>
-                        <p>Success Rate</p>
-                    </div>
-                </div>
-                <div class="statistics-card">
-                    <img src="images/icons/24-hours-support.png" alt="">
-                    <div>
-                        <h2>24/7</h2>
-                        <p>Support</p>
-                    </div>
-                </div>
-                <div class="statistics-card">
-                    <img src="images/icons/dog-house.png" alt="">
-                    <div>
-                        <h2>850</h2>
-                        <p>Shelters</p>
-                    </div>
-                </div>
-            </div>
-            <div class="info-section-content">
-                <div class="info-section-info">
-                    <h2 class="section-title">Why Choose PawConnect?</h2>
-                    <p class="section-description">At PawConnect, we are dedicated to connecting loving pets with caring
-                        families. Our platform offers a seamless experience for adopting pets, donating to shelters, and
-                        volunteering your time to make a difference.</p>
-                </div>
-                <div class="features">
-                    <ul class="features-list">
-                        <li>
-                            <h3>🐾 Extensive Pet Listings:</h3>
-                            <p>Browse through a wide variety of pets looking for their forever
-                                homes.</p>
-                        </li>
-                        <li>
-                            <h3>❤️ Easy Donation Process:</h3>
-                            <p>Support shelters and rescue organizations with just a few clicks.</p>
-                        </li>
-                        <li>
-                            <h3>🤝 Volunteer Opportunities:</h3>
-                            <p>Find local shelters where you can volunteer and help care for
-                                animals
-                                in need.</p>
-                        </li>
-                        <li>
-                            <h3>🔒 Secure and Trustworthy:</h3>
-                            <p>We prioritize the safety and well-being of both pets and adopters.
-                            </p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-        </section>
-
-        <section class="shelter-register-section">
-            <h2>Are you a shelter?</h2>
-            <div class="shelter-register-content">
-                <img src="images/home/shelter.png" alt="" class="shelter-register-image" id="shelter-image-back">
-                <img src="images/home/shelter-front.png" alt="" class="shelter-register-image"
-                    id="shelter-image-front"></img>
-                <div class="shelter-register-info">
-                    <p class="section-description">Join PawConnect today and expand your reach to find loving homes for
-                        your
-                        animals. Register your shelter with us and become part of a compassionate community dedicated to
-                        animal welfare.</p>
-                </div>
-                <a href="shelter-register.html" class="btn">Register Your Shelter</a>
-            </div>
-        </section>
-
-        <section class="testimonials-section">
-            <h2>What Our Users Say</h2>
-            <div class="testimonials">
-                <div class="testimonial-card">
-                    <div class="testimonial-card-profile">
-                        <img src="images/icons/user.png" alt="">
-                        <h5>Sarah M.</h5>
-                    </div>
-                    <p>
-                        “Thanks to PawConnect, we adopted our dog Luna in just a few days.
-                        The process was easy and transparent.”
-                    </p>
-                    <div class="testimonials-stars">
-                        <img src="images/icons/star.png" alt="">
-                        <img src="images/icons/star.png" alt="">
-                        <img src="images/icons/star.png" alt="">
-                    </div>
-                </div>
-
-                <div class="testimonial-card">
-                    <div class="testimonial-card-profile">
-                        <img src="images/icons/user.png" alt="">
-                        <h5>Green Paws Shelter</h5>
-                    </div>
-                    <p>
-                        “PawConnect helped our shelter reach more loving families.
-                        It truly makes a difference.”
-                    </p>
-                    <div class="testimonials-stars">
-                        <img src="images/icons/star.png" alt="">
-                        <img src="images/icons/star.png" alt="">
-                        <img src="images/icons/star.png" alt="">
-                        <img src="images/icons/star.png" alt="">
-                    </div>
-                </div>
-
-                <div class="testimonial-card">
-                    <div class="testimonial-card-profile">
-                        <img src="images/icons/user.png" alt="">
-                        <h5>Jane D.</h5>
-                    </div>
-                    <p>
-                        "Thanks to PawConnect, I found my new best friend. The process was
-                        smooth and easy."
-                    </p>
-                    <div class="testimonials-stars">
-                        <img src="images/icons/star.png" alt="">
-                        <img src="images/icons/star.png" alt="">
-                        <img src="images/icons/star.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="final-cta-section">
-            <h2>Ready to Make a Difference?</h2>
-            <p>
-                Whether you want to adopt a pet, support shelters, or register your organization,
-                PawConnect is here to help.
-            </p>
-
-            <div class="final-cta-buttons">
-                <a href="adopt.html" class="btn">Adopt a Pet</a>
-                <a href="donate.html" class="btn">Donate</a>
-                <a href="shelter-register.html" class="btn">Register a Shelter</a>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <h3>PawConnect</h3>
-        <p class="footer-tagline">
-            Connecting loving pets with caring families.
-        </p>
-        <div class="footer-content">
-            <div class="footer-column">
-                <h5>Quick Links</h5>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="adopt.html">Adopt a Pet</a></li>
-                    <li><a href="donate.html">Donate</a></li>
-                    <li><a href="shelters.html">Shelters</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                </ul>
-            </div>
-            <div class="footer-column">
-                <h5>For Shelters</h5>
-                <ul>
-                    <li><a href="login.html">Shelter Login</a></li>
-                    <li><a href="shelter-register.html">Register Shelter</a></li>
-                </ul>
-                <h5>Contact us for web support</h5>
-                <a href="mailto:nazaraliumirkulow@gmail.com" class="web-contact">Click for email</a>
-            </div>
-        </div>
-        <p class="footer-trust">
-            Verified shelters • Secure adoption • No animal trade
-        </p>
-
-        <div class="footer-bottom">
-            <p>© 2026 PawConnect. All rights reserved.</p>
-        </div>
-    </footer>
+  <!-- Diğer Firebase servisleri (Firestore, Storage vb.) -->
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js"></script>
 </body>
 
 </html>
